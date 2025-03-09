@@ -13,8 +13,8 @@
         }
 
         .materia img {
-            width: 50px; /* Tamaño de la imagen */
-            height: 50px; /* Tamaño de la imagen */
+            width: 150px; /* Tamaño de la imagen */
+            height: 150px; /* Tamaño de la imagen */
             margin-right: 10px; /* Espacio entre la imagen y el texto */
         }
     </style>
