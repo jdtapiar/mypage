@@ -3,71 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bienvenido a mi sitio</title>
+    <style>
+        /* Estilos para hacer que las imágenes se vean como botones */
+        .materia {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
 
+        .materia img {
+            width: 50px; /* Tamaño de la imagen */
+            height: 50px; /* Tamaño de la imagen */
+            margin-right: 10px; /* Espacio entre la imagen y el texto */
+        }
+    </style>
 </head>
 <body>
     <h1>Bienvenido al sitio</h1>
-    <p>Descarga los archivos según el bimestre:</p>
-    
-    <!-- Sección de Bimestres -->
-    <h2>Primer Bimestre</h2>
-    <ul>
-        <li><a href="primer_bimestre/ingles">Inglés</a></li>
-        <li><a href="primer_bimestre/biologia">Biología</a></li>
-        <li><a href="primer_bimestre/civica">Cívica</a></li>
-        <li><a href="primer_bimestre/educacion_fisica">Educación Física</a></li>
-        <li><a href="primer_bimestre/filosofia">Filosofía</a></li>
-        <li><a href="primer_bimestre/fisica">Física</a></li>
-        <li><a href="primer_bimestre/geografia">Geografía</a></li>
-        <li><a href="primer_bimestre/literatura">Literatura</a></li>
-        <li><a href="primer_bimestre/matematicas">Matemáticas</a></li>
-        <li><a href="primer_bimestre/quimica">Química</a></li>
-        <li><a href="primer_bimestre/religion">Religión</a></li>
-    </ul>
+    <p>Descarga los archivos de cada materia:</p>
 
-    <h2>Segundo Bimestre</h2>
+    <!-- Lista de materias -->
     <ul>
-        <li><a href="segundo_bimestre/ingles">Inglés</a></li>
-        <li><a href="segundo_bimestre/biologia">Biología</a></li>
-        <li><a href="segundo_bimestre/civica">Cívica</a></li>
-        <li><a href="segundo_bimestre/educacion_fisica">Educación Física</a></li>
-        <li><a href="segundo_bimestre/filosofia">Filosofía</a></li>
-        <li><a href="segundo_bimestre/fisica">Física</a></li>
-        <li><a href="segundo_bimestre/geografia">Geografía</a></li>
-        <li><a href="segundo_bimestre/literatura">Literatura</a></li>
-        <li><a href="segundo_bimestre/matematicas">Matemáticas</a></li>
-        <li><a href="segundo_bimestre/quimica">Química</a></li>
-        <li><a href="segundo_bimestre/religion">Religión</a></li>
-    </ul>
-
-    <h2>Tercer Bimestre</h2>
-    <ul>
-        <li><a href="tercer_bimestre/ingles">Inglés</a></li>
-        <li><a href="tercer_bimestre/biologia">Biología</a></li>
-        <li><a href="tercer_bimestre/civica">Cívica</a></li>
-        <li><a href="tercer_bimestre/educacion_fisica">Educación Física</a></li>
-        <li><a href="tercer_bimestre/filosofia">Filosofía</a></li>
-        <li><a href="tercer_bimestre/fisica">Física</a></li>
-        <li><a href="tercer_bimestre/geografia">Geografía</a></li>
-        <li><a href="tercer_bimestre/literatura">Literatura</a></li>
-        <li><a href="tercer_bimestre/matematicas">Matemáticas</a></li>
-        <li><a href="tercer_bimestre/quimica">Química</a></li>
-        <li><a href="tercer_bimestre/religion">Religión</a></li>
-    </ul>
-
-    <h2>Cuarto Bimestre</h2>
-    <ul>
-        <li><a href="cuarto_bimestre/ingles">Inglés</a></li>
-        <li><a href="cuarto_bimestre/biologia">Biología</a></li>
-        <li><a href="cuarto_bimestre/civica">Cívica</a></li>
-        <li><a href="cuarto_bimestre/educacion_fisica">Educación Física</a></li>
-        <li><a href="cuarto_bimestre/filosofia">Filosofía</a></li>
-        <li><a href="cuarto_bimestre/fisica">Física</a></li>
-        <li><a href="cuarto_bimestre/geografia">Geografía</a></li>
-        <li><a href="cuarto_bimestre/literatura">Literatura</a></li>
-        <li><a href="cuarto_bimestre/matematicas">Matemáticas</a></li>
-        <li><a href="cuarto_bimestre/quimica">Química</a></li>
-        <li><a href="cuarto_bimestre/religion">Religión</a></li>
+        <li class="materia">
+            <a href="ingles">
+                <img src="https://github.com/tu_usuario/tu_repositorio/raw/main/imagenes/ingles.jpg" alt="Inglés">
+                Inglés
+            </a>
+        </li>
+        <li class="materia">
+            <a href="biologia">
+                <img src="https://github.com/tu_usuario/tu_repositorio/raw/main/imagenes/biologia.jpg" alt="Biología">
+                Biología
+            </a>
+        </li>
+        <li class="materia">
+            <a href="civica">
+                <img src="https://github.com/tu_usuario/tu_repositorio/raw/main/imagenes/civica.jpg" alt="Cívica">
+                Cívica
+            </a>
+        </li>
+        <li class="materia">
+            <a href="educacion_fisica">
+                <img src="https://github.com/tu_usuario/tu_repositorio/raw/main/imagenes/educacion_fisica.jpg" alt="Educación Física">
+                Educación Física
+            </a>
+        </li>
+        <li class="materia">
+            <a href="filosofia">
+                <img src="https://github.com/tu_usuario/tu_repositorio/raw/main/imagenes/filosofia.jpg" alt="Filosofía">
+                Filosofía
+            </a>
+        </li>
+        <li class="materia">
+            <a href="fisica">
+                <img src="https://github.com/tu_usuario/tu_repositorio/raw/main/imagenes/fisica.jpg" alt="Física">
+                Física
+            </a>
+        </li>
+        <li class="materia">
+            <a href="geografia">
+                <img src="https://github.com/tu_usuario/tu_repositorio/raw/main/imagenes/geografia.jpg" alt="Geografía">
+                Geografía
+            </a>
+        </li>
+        <li class="materia">
+            <a href="literatura">
+                <img src="https://github.com/tu_usuario/tu_repositorio/raw/main/imagenes/literatura.jpg" alt="Literatura">
+                Literatura
+            </a>
+        </li>
+        <li class="materia">
+            <a href="matematicas">
+                <img src="https://github.com/tu_usuario/tu_repositorio/raw/main/imagenes/matematicas.jpg" alt="Matemáticas">
+                Matemáticas
+            </a>
+        </li>
+        <li class="materia">
+            <a href="quimica">
+                <img src="https://github.com/tu_usuario/tu_repositorio/raw/main/imagenes/quimica.jpg" alt="Química">
+                Química
+            </a>
+        </li>
+        <li class="materia">
+            <a href="religion">
+                <img src="https://github.com/tu_usuario/tu_repositorio/raw/main/imagenes/religion.jpg" alt="Religión">
+                Religión
+            </a>
+        </li>
     </ul>
 </body>
 </html>
