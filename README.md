@@ -78,7 +78,6 @@
         <li class="materia">
             <a href="religion">
                 <img src="https://drive.google.com/file/d/1OVLA53fXfthb8-ADUVGbkUKO_1x3iMka/view?usp=sharing" alt="religión">
-                religión
             </a>
         </li>
     </ul>
